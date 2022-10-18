@@ -11,7 +11,7 @@ var controller={
    
         return rest.status(200).send({
             curso:'Master en framework js',
-            Autor:'Antonio Fdez',
+            Autor:'Antonio Verdu',
             url:'Antoniofernandez.es',
             hola
        
