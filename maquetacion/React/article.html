@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Maquetacion para el master de framework en javascript</title>
+<!--Hoja de estilos-->
+<link rel="stylesheet" href="assets/css/styles.css"/>
+
+
+</head>
+<body>
+<header id="header">
+    <div class="center">
+        <!--logo-->
+        <div id="logo">
+
+        <img src="assets/images/React.png" class app-log alt="logotipo"/>
+        </div>
+        <span id="brand">
+        <strong>Curso</strong>React
+        </span>
+        <!--Menu-->
+        <nav id="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+            <li><a href="#">Pagina 1</a></li>
+            <li><a href="#">Pagina 2</a></li>
+
+        </ul>
+        </nav>
+        <!--LIMPIAR LOS FLOTADOS-->
+        <div class="clearfix">
+
+        </div>
+
+</div>
+</header>
+
+<div class="center">
+    <section id="content">
+        
+        <!--Listado articulos-->
+        <div id="articles">
+            <article class="article-item article-detail">
+                <div class="image-wrap">
+                    <img src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos.jpg" alt="paisaje"/>
+                </div>
+                <h1 class="subheader">Artículo de prueba</h1>
+                <span class="date">
+                    hace 5 minutos
+                </span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum, mauris vel porta sagittis, ligula neque maximus felis, vel semper lectus ex non risus. Curabitur ac ipsum metus. Aenean feugiat euismod dui ac eleifend. Donec rutrum mi eu elit luctus, vitae porttitor odio imperdiet. Nullam cursus dapibus commodo. In hac habitasse platea dictumst. Cras nec sagittis dolor. In ut arcu sed magna ultrices elementum vel ut metus.
+                </p>
+                <p>
+                    In et consectetur ipsum. Nulla nec nunc maximus, dictum ante sed, lobortis ligula. Aenean id quam vitae orci consequat laoreet quis et arcu. Etiam aliquam eros eu eros ornare rutrum. Phasellus pellentesque quam quis mauris consectetur suscipit. Vestibulum viverra a justo a ultrices. Duis interdum, metus vel aliquet rhoncus, massa ex egestas nisl, a porttitor est sem eget purus. Vestibulum porta eu tortor vitae tempor. Duis leo ipsum, accumsan id ex vel, dapibus lobortis lectus. Etiam viverra diam at elit maximus, sed accumsan lorem euismod. In et lorem sit amet nunc dictum laoreet. Vestibulum a elit venenatis dolor dapibus aliquam sit amet quis est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae dapibus ligula.
+                </p>
+                <p>
+                    Quisque vel leo varius, tempus est lobortis, scelerisque ex. Cras tempor sodales aliquam. Aliquam diam ante, iaculis non magna id, commodo mollis metus. Cras venenatis metus nec risus pretium ultrices. Curabitur gravida justo sit amet augue dignissim dictum quis ut elit. Cras eget maximus felis, vel malesuada nulla. Ut sollicitudin, magna sit amet vehicula viverra, tortor libero sollicitudin lacus, non lobortis sem urna eu ligula.
+                </p>
+                <div class="clearfix"></div>
+            </article>
+
+            <!--AÑADIR ARTICULOS VIA JS-->
+        </div>
+    </section>
+
+    
+
+
+
+    <aside id="sidebar">
+        <div id="nav-blog" class="sidebar-item">
+            <h3>puedes hacer esto</h3>
+            <a href="#" class="btn btn-success">Crear articulo</a>
+        </div>
+        <div id="nav-blog" class="sidebar-item">
+            <h3>Buscador</h3>
+            <p>Encuentra el articulo que buscas</p>
+            <form>
+                <input type="text" name="search"/>
+                <input type="submit" name="submit" value="Buscar" class="btn"/>
+            </form>
+        </div>
+
+    </aside>
+    <!--Para que el footer se ponga debajo limpiar los flotados-->
+        <div class="clearfix"></div>
+</div>
+<footer id="footer">
+    <div class="center">
+        <p>
+            &copy; Master en framework para Javascript
+        </p>
+    </div>
+
+
+</footer>
+
+
+</body>
+
+</html>
